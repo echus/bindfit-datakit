@@ -5,12 +5,14 @@
   "algorithms": [
     "bindfit"
   ],
-  "runs": [],
+  "runs": [
+    "bindfit.run"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/open-datakit/bindfit-datakit",
     "name": "open-datakit/bindfit-datakit"
   },
   "created": 1721295423,
-  "updated": 1732784832
+  "updated": 1732785372
 }
