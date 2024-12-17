@@ -4,6 +4,7 @@
     "layout": {
       "rows": [
         {
+          "name": "main-row",
           "style": "display: grid; gap: 1rem; grid-template-columns: repeat(4, minmax(0, 1fr));",
           "cells": [
             {
@@ -15,7 +16,8 @@
                     "cells": [
                       {
                         "name": "control-panel-data",
-                        "variable": "data"
+                        "component": "upload",
+                        "targetVariable": "data"
                       }
                     ]
                   },
@@ -31,7 +33,7 @@
                     "cells": [
                       {
                         "name": "control-panel-parameters",
-                        "resource": "inputParams",
+                        "variable": "inputParams",
                         "options": {
                           "size": "compact"
                         }
@@ -69,6 +71,14 @@
                         "variable": "dilutionCorrection"
                       }
                     ]
+                  },
+                  {
+                    "cells": [
+                      {
+                        "name": "control-panel-execute",
+                        "component": "execute"
+                      }
+                    ]
                   }
                 ]
               }
@@ -76,7 +86,34 @@
             {
               "name": "main-panel",
               "style": "grid-column: span 3 / span 3;",
-              "view": "fitGraphHighcharts"
+              "layout": {
+                "rows": [
+                  {
+                    "cells": [
+                      {
+                        "name": "main-panel-fit-summary",
+                        "variable": "summary"
+                      }
+                    ]
+                  },
+                  {
+                    "cells": [
+                      {
+                        "name": "main-panel-fit-params",
+                        "variable": "outputParams"
+                      }
+                    ]
+                  },
+                  {
+                    "cells": [
+                      {
+                        "name": "main-panel-fit-graph",
+                        "view": "fitGraphHighcharts"
+                      }
+                    ]
+                  }
+                ]
+              }
             }
           ]
         }
