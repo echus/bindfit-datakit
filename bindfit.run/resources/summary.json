@@ -1,6 +1,6 @@
 {
   "name": "summary",
-  "title": "Fit summary",
+  "title": "Summary",
   "description": "Fit summary",
   "profile": "tabular-data-resource",
   "schema": {
@@ -26,13 +26,13 @@
       },
       {
         "name": "n_y",
-        "title": "Fitted datapoints",
+        "title": "N datapoints",
         "unit": "",
         "type": "number"
       },
       {
         "name": "n_params",
-        "title": "Fitted parameters",
+        "title": "N parameters",
         "unit": "",
         "type": "number"
       }
@@ -41,7 +41,7 @@
   "data": [
     {
       "model": "nmr_1to1",
-      "time": 0.009345706988824531,
+      "time": 0.009557966001011664,
       "ssr": 2.565610315735718e-05,
       "n_y": 88,
       "n_params": 5
