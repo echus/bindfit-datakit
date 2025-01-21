@@ -2,8 +2,8 @@
 
 Bindfit is a binding constant fitting tool designed to work with classical supramolecular titration data obtained from NMR, UV, Fluorescence and other methods.
 
-* 🗒️ [Datakit documentation](https://docs.opendatakit.io/)
-* 💻 [Bindfit Python library GitHub](https://github.com/open-datakit/bindfit)
+* 🗒️ [Datakit documentation](https://docs.opendata.studio/)
+* 💻 [Bindfit Python library GitHub](https://github.com/opendatastudio/bindfit)
 
 ## Example usage
 ```
@@ -25,8 +25,8 @@ dk view fitGraphMatplotlib                 # View fit graph
 
 * Docker
 * Python (to run CLI)
-* [open-datakit/cli](https://github.com/open-datakit/cli)
-* [open-datakit/containers](https://github.com/open-datakit/containers)
+* [opendatastudio/cli](https://github.com/opendatastudio/cli)
+* [opendatastudio/containers](https://github.com/opendatastudio/containers)
 
 ### Set up pre-commit hooks
 

@@ -8,8 +8,8 @@
   "runs": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/open-datakit/bindfit-datakit",
-    "name": "open-datakit/bindfit-datakit"
+    "url": "https://github.com/opendatastudio/bindfit-datakit",
+    "name": "opendatastudio/bindfit-datakit"
   },
   "created": 1721295423,
   "updated": 1732784832
