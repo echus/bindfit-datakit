@@ -3,6 +3,7 @@
   "title": "Bindfit",
   "profile": "datakit-algorithm",
   "code": "algorithm.py",
+  "relationships": "relationships",
   "requirements": [
     "pandas",
     "bindfit"
