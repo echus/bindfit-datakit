@@ -69,12 +69,7 @@
                 "seriesId": "data",
                 "data": [
                   "x",
-                  [
-                    "data_y0",
-                    "data_y1",
-                    "data_y2",
-                    "data_y3"
-                  ]
+                  "data_y"
                 ]
               }
             ]
@@ -86,12 +81,7 @@
                 "seriesId": "fit",
                 "data": [
                   "x",
-                  [
-                    "fit_y0",
-                    "fit_y1",
-                    "fit_y2",
-                    "fit_y3"
-                  ]
+                  "fit_y"
                 ]
               }
             ]
@@ -180,12 +170,7 @@
                 "seriesId": "residuals",
                 "data": [
                   "x",
-                  [
-                    "residuals_y0",
-                    "residuals_y1",
-                    "residuals_y2",
-                    "residuals_y3"
-                  ]
+                  "residuals_y"
                 ]
               }
             ]
