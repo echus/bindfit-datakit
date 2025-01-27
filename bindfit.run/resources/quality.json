@@ -1,0 +1,51 @@
+{
+  "name": "quality",
+  "title": "Fit quality",
+  "description": "Fit quality",
+  "profile": "tabular-data-resource",
+  "schema": {
+    "primaryKey": "fit",
+    "fields": [
+      {
+        "name": "fit",
+        "title": "Fit",
+        "unit": "",
+        "type": "string"
+      },
+      {
+        "name": "rms",
+        "title": "RMS",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "name": "cov",
+        "title": "Covariance",
+        "unit": "",
+        "type": "number"
+      }
+    ]
+  },
+  "data": [
+    {
+      "fit": "y0",
+      "rms": 0.00044477376241649976,
+      "cov": 0.00014386347157833776
+    },
+    {
+      "fit": "y1",
+      "rms": 0.00028492521860335227,
+      "cov": 0.002608915871827255
+    },
+    {
+      "fit": "y2",
+      "rms": 0.0008570618861241949,
+      "cov": 0.005149989991717776
+    },
+    {
+      "fit": "y3",
+      "rms": 0.00039067294579422804,
+      "cov": 0.0070556864171662246
+    }
+  ]
+}
